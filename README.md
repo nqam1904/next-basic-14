@@ -34,4 +34,5 @@ Benefits Error:
 4. Add functionality to attempt to recover from an error without a full page reload.
 
 Component Hierarchy
+
 ![Alt text](image.png)
