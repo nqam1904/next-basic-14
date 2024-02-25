@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 interface Params {
   params: {
-    pageId: string;
+    blogId: string;
     reviewId: string;
   };
 }
@@ -13,7 +13,7 @@ const ReviewPage = ({ params }: Params) => {
   return (
     <div>
       <h1>
-        Page: {params.pageId} for reviews: {params.reviewId}
+        Blog: {params.blogId} for reviews: {params.reviewId}
       </h1>
     </div>
   );
